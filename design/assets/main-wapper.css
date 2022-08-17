@@ -1,0 +1,26 @@
+.main-wapper{
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  background-color:var(--White);
+  margin:auto;
+  height: 100%;
+  width: 100%;
+}
+
+.valor{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1{
+  color: var(--White);
+  text-align: left;
+}
+
+p{
+  color: var(--Very_blue);
+  text-align: left;
+}

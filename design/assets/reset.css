@@ -1,9 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+:root{
+  --Very_dark_blue: hsl(217, 54%, 11%);
+  --dark_blue: hsl(216, 50%, 16%);
+  --Very_blue: hsl(215, 32%, 27%);
+  --White: hsl(0, 0%, 100%);
+}
+
 body {
-  font-family: 'Lexend Deca';
+  font-family: 'Outfit', 'sans-serif';
   font-size: 1.6rem;
   text-align: center;
   overflow: overlay;
-  background-color: ;
 }
 html {
   scroll-behavior: smooth;
@@ -16,6 +23,7 @@ html {
 body{
   width: 100%;
   height: 100%;
+  background-color: var(--Very_dark_blue);
 }
 ul {
   list-style: none;
@@ -24,4 +32,11 @@ button {
   border: none;
   font-family: inherit;
 }
+
+
+
+.attribution { 
+  display:none;
+  font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
 
