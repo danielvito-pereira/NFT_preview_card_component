@@ -1,0 +1,22 @@
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  margin: auto;
+  height: 100%;
+  width: 90%;
+  min-width: 90%;
+  background: var(--dark_blue);
+  border-radius: 0.7rem;
+  margin-top:1rem;
+}
+
+.avatar{
+  display: flex;
+}
+.avatar img {
+  width: 1%;
+  height: 1%;
+}
