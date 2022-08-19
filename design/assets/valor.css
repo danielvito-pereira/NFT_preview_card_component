@@ -1,0 +1,8 @@
+.valor {
+  display: flex;
+  font-size: 12px;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+  min-width: 88%;
+}

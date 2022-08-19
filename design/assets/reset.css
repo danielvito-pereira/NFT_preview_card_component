@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
 :root{
+  --Soft-blue: hsl(215, 51%, 70%);
+  --Cyan: hsl(178, 100%, 50%);
   --Very_dark_blue: hsl(217, 54%, 11%);
   --dark_blue: hsl(216, 50%, 16%);
   --Very_blue: hsl(215, 32%, 27%);

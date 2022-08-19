@@ -1,22 +1,32 @@
 .content {
   display: flex;
+  box-sizing: border-box;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   flex-direction: column;
   text-align: center;
   margin: auto;
-  height: 100%;
-  width: 90%;
-  min-width: 90%;
+  max-height: 90%;
+  max-width: 90%;
   background: var(--dark_blue);
   border-radius: 0.7rem;
-  margin-top:1rem;
 }
-
+#linha-horizontal {
+  width: 83%;
+  border: 1px solid  var(--Very_blue);
+  margin: 1rem;
+}
 .avatar{
   display: flex;
+  align-items: center;
+  justify-content:left;
+  width: 90%;
+  margin-bottom: 1rem;
 }
 .avatar img {
-  width: 1%;
-  height: 1%;
+  height: 2rem;
+  width: 2rem;
+  margin-right: 1rem ;
+  border:1px solid white;
+  border-radius: 1rem;
 }
