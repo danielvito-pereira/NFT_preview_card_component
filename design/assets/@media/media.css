@@ -1,0 +1,16 @@
+@media (min-width:1024px) {
+
+  .content {
+    max-height: 90%;
+    max-width: 30%;
+  }
+
+  .hero { 
+    box-sizing: border-box;
+    max-width: 90%;
+    max-height: 56%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+}
