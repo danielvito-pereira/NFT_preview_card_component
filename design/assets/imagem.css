@@ -13,3 +13,16 @@
   border-radius: 0.7rem;
 
 }
+.hero svg {
+  position: absolute;
+  top: -30%;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+}
+
+
+.hero:hover {
+  cursor: pointer;
+}

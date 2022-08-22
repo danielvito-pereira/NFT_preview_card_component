@@ -23,6 +23,11 @@
   width: 90%;
   margin-bottom: 1rem;
 }
+
+.avatar p .color-white:hover {
+  color: var(--Cyan);
+  cursor: pointer;
+}
 .avatar img {
   height: 2rem;
   width: 2rem;

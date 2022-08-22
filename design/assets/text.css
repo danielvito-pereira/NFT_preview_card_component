@@ -6,3 +6,8 @@
 .color-white {
   color : var(--White);
 }
+
+.titulo:hover {
+  color: var(--Cyan);
+  cursor: pointer;
+}
